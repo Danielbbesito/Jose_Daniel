@@ -1,0 +1,270 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Helvetica;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333;
+}
+
+.ancho {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.centrar {
+  text-align: center;
+}
+
+.margen {
+  padding: 12px;
+}
+
+.fondo_crema {
+  background-color:#FFF9F1;
+}
+
+hr {
+  background-color: #ff3281;
+  height: 12px;
+}
+
+.contenedor_logo {
+  display: inline-block;
+  vertical-align: top;
+  width: 500px;
+  text-align: left;
+}
+
+.contenedor_logo img {
+  width: 150px;
+}
+
+.contenedor_redes {
+  display: inline-block;
+  vertical-align: top;
+  width: 500px;
+  text-align: right;
+  margin-top: 20px;
+}
+
+.contenedor_redes a {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.contenedor_redes img {
+  width: 40px;
+}
+
+.contenedor_menu {
+  display: inline-block;
+  border: 3px black solid;
+  width: 1000px;
+  margin-bottom: 30px;
+}
+
+.contenedor_menu a {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  padding: 5px 70px;
+  font-weight: bold;
+}
+
+/* div {
+  border: 1px black solid;
+} */
+
+.fondo_piedras {
+  background-image: url(imagenes/fondopiedras.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 390px;
+}
+
+.contenedor_promocion {
+  padding: 100px 280px;
+}
+
+.contenedor_promocion h1 {
+  color: white;
+  margin-bottom: 20px;
+}
+
+.contenedor_promocion h3 {
+  color: white;
+  margin-bottom: 40px;
+}
+
+.contenedor_promocion a {
+  display: inline-block;
+  border: 2px #ff3281 solid;
+  padding: 12px 16px;
+  margin-right: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.contenedor_promocion a:hover {
+  background-color: #ff3281;
+}
+
+
+.contenedor_productos {
+  display: inline-block;
+  vertical-align: top;
+  width: 500px;
+  text-align: left;
+  padding: 15px;
+}
+
+.contenedor_productos h2 {
+  margin-bottom: 12px;
+}
+
+.contenedor_productos p {
+  line-height: 40px;
+}
+
+.contenedor_velas {
+  display: inline-block;
+  vertical-align: top;
+  width: 500px;
+  padding: 10px;
+}
+
+.contenedor_buscar h2 {
+  padding: 12px;
+}
+
+.contenedor_aroma {
+  display: inline-block;
+  vertical-align: top;
+  width: 500px;
+  padding: 15px;
+}
+
+.contenedor_aroma img {
+  border-radius: 20px;
+  width: 470px;
+  height: 380px;
+}
+
+.contenedor_equipo {
+  display: inline-block;
+  vertical-align: top;
+  width: 500px;
+  margin-top: 30px;
+  text-align: left;
+}
+
+.contenedor_equipo h3 {
+  margin-bottom: 12px;
+}
+
+.contenedor_equipo p {
+  margin-bottom: 18px;
+  color: #727272;
+}
+
+.contendor_contactanos {
+  display: inline-block;
+  vertical-align: top;
+  width: 500px;
+  text-align: left;
+}
+
+.contendor_contactanos h2 {
+  font-size: 33px;
+  line-height: 40px;
+  margin-top: 12px;
+}
+.contendor_contactanos a {
+  margin:10px 0px;
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+}
+
+.contendor_contactanos form {
+  padding: 12px;
+  border: 3px #ff3281 solid;
+  width: 440px;
+}
+
+.contendor_contactanos label{
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.contendor_contactanos input {
+  border-radius: 5px;
+  width: 400px;
+  height: 35px;
+  margin: 12px 0px;
+  border: 2px #b6b6b6 solid;
+  padding: 10px;
+}
+
+.contendor_contactanos button {
+  padding: 8px 48px;
+  background-color: black;
+  color: white;
+}
+
+.rosa {
+  color: #ff3281;
+  font-weight: bold;
+}
+
+.contenedor_instalaciones {
+  display: inline-block;
+  vertical-align: top;
+  width: 500px;
+}
+
+.contenedor_instalaciones h2 {
+   margin-top: 20px;
+   margin-left: 40px;
+   margin-bottom: 50px;
+   font-size: 33px;
+   text-align: left;
+}
+
+.contenedor_instalaciones iframe {
+  width: 500px;
+  height: 280px;
+  margin-left: 40px;
+  margin-bottom: 60px;
+}
+
+.contendor_logo2 {
+  display: inline-block;
+  vertical-align: top;
+  width: 500px;
+  text-align: left;
+}
+
+.contendor_alumno {
+  display: inline-block;
+  vertical-align: top;
+  width: 500px;
+  text-align: right;
+  margin-top: 40px;
+}
+
+
+
+
+
+
+
